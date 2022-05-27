@@ -1,5 +1,9 @@
 <?php
+#Before use you must install Composer (https://getcomposer.org/) and PHPMailer (https://github.com/PHPMailer/PHPMailer) on the same folder of this files
+# After installing Composer, run on the command line "composer require phpmailer/phpmailer"
 #Useful implementation for microservices
+#This file can be called by a POST request
+
 include_once('config.php');
 require 'vendor/autoload.php';
 		use PHPMailer\PHPMailer\PHPMailer;
